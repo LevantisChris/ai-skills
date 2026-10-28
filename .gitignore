@@ -1,6 +1,5 @@
-# Obsidian: per-user window/layout state, changes on every open
-.obsidian/workspace*.json
-.obsidian/cache
+# Obsidian vault config and state
+.obsidian/
 .trash/
 
 # Rendered flowcharts from writing-skills/render-graphs.js
