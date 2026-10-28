@@ -1,0 +1,24 @@
+# Obsidian: per-user window/layout state, changes on every open
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Rendered flowcharts from writing-skills/render-graphs.js
+skills/*/diagrams/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
+.idea/
+
+# Local env and secrets
+.env
+.env.*
+
+# Node / Python leftovers from skill scripts
+node_modules/
+__pycache__/
+*.pyc
