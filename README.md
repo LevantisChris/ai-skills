@@ -9,6 +9,7 @@ Each skill is a folder with a `SKILL.md` that tells the agent when to use it and
 | Skill | What it does |
 |---|---|
 | [endpoint-mapping](skills/endpoint-mapping) | Documents every endpoint of an API server (routes, auth, roles, payloads, errors) straight from the backend code |
+| [scoped-row-access](skills/scoped-row-access) | Per-role row visibility (admin all, user own, client its tenant) carried as a scope value from API to one SQL predicate in the repo |
 | [landing-page-design](skills/landing-page-design) | Plans, writes and designs high-converting landing pages, with a default visual system |
 | [thermo-nuclear-code-quality-review](skills/thermo-nuclear-code-quality-review) | A very strict maintainability review: abstractions, giant files, tangled conditions. Runs only when called |
 | [writing-skills](skills/writing-skills) | How to write, test and improve skills like these |
